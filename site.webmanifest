@@ -1,0 +1,14 @@
+{
+    "name": "Lume Web Design",
+    "short_name": "Lume",
+    "icons": [
+        {
+            "src": "/images/logo1.svg",
+            "sizes": "72x72",
+            "type": "image/svg"
+        }
+    ],
+    "theme_color": "#f5f5f5",
+    "background_color": "#f5f5f5",
+    "display": "standalone"
+}

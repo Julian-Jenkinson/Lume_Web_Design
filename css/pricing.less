@@ -1,0 +1,201 @@
+
+/*-- -------------------------- -->
+<---           Pricing          -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0em) {
+    #pricing-section{
+        margin: auto;
+        padding-bottom: 2em;
+        padding-top: 8em;
+        .pricing-container{
+            width: 90%;
+            margin: auto;
+            .price-box{
+                padding-bottom: 2em;
+                padding-top: 2em;
+                margin-bottom: 2em;
+                background-color: #ededed;
+                border-radius: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                .left-price{
+                    width: 100%;
+                    padding-left: 2em;
+                    .price-heading{
+                        font-family: "heading";
+                        font-weight: 800;
+                    }
+                    p{
+                        padding-bottom: 1em;
+                        font-size: 18px;
+                    }
+                }
+                .right-price{
+                    font-family: "Heading";
+                    padding-left: 2em;
+                    padding-top: 2em;
+                    font-size: 20px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    h3{
+                        font-size: 30px;
+                        font-family: "Heading";
+                        font-weight: 800;
+                        margin-bottom: .2em;
+                    }
+                    p{
+                        padding-bottom: 2em;
+                        font-weight: 300;
+                        font-size: 16px;
+                    }
+                    form{
+                        .button{
+                            color: white;
+                            background-color: black;
+                            &:hover{
+                                color: black;
+                                background-color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 48em) {
+    #pricing-section{
+        .pricing-container{
+            width: 90%;
+            margin: auto;
+            .price-box{
+                .left-price{
+                    width: 65%;
+                }
+                .right-price{
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+    #pricing-section{
+        max-width: 1200px;
+    }
+}
+
+/* Large Desktop */
+@media only screen and (min-width: 1500px) {
+    #pricing-section{
+        max-width: 1300px;
+    }
+}
+
+/*-- -------------------------- -->
+<---           About            -->
+<--- -------------------------- -*/
+
+/* Mobile */
+@media only screen and (min-width: 0em) {
+    #about-section{
+        //padding-top: 8em;
+        padding-bottom: 5em;
+        background-color: var(--coloura);
+        margin: auto;
+        
+        .about-container{
+            width: 90%;
+            margin: auto;
+            //overflow: hidden;
+
+            .sub-head-4{
+                font-size: 28px;
+                font-weight: 600;
+            }
+            
+            .about-columns{
+                
+                .about-image{
+                    width: 90%;
+                    height: auto;
+                    display: none;
+                    border-radius: 30px;
+                    filter: grayscale(50%);
+                }
+                .about-text{
+                    font-family: "heading";
+                    //padding-top: 1em;
+                    padding-bottom: 3em;
+                    opacity:0;
+                    transition: opacity 2s ease, transform 1.5s ease;
+                    transform: translateY(25%);
+                    &.text-appear{
+                        transform: translateY(0);
+                        opacity: 1;
+                    }
+                }
+                
+            }
+            .center-button{
+                padding-top: 1em;
+                //padding-bottom: 2em;
+                text-align: center;
+            }
+        }
+
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 48em) {
+    #about-section{
+        //max-width: 1200px;
+        .about-container{
+            .about-columns{
+                padding-top: 2em;
+                display: flex;
+                justify-content: space-between;
+                
+                .about-image-wrapper{
+                    width: 40%;
+                    .about-image{
+                        width: 90%;
+                        height: auto;
+                        display: block;
+                        object-fit: fill;
+                    }
+                }
+                .about-text-wrapper{
+                    width:95%;
+                    .about-text{
+                        //width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+    #about-section{
+        max-width: 1200px;
+    }
+}
+
+/* Large Desktop */
+@media only screen and (min-width: 1500px) {
+    #about-section{
+        max-width: 1300px;
+    }
+
+}
