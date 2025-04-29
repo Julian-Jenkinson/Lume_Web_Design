@@ -13,8 +13,8 @@ A short description and goal for the project
 **Backend** - some information
 
 ## Deployment 💫
-some text
+some text about netlify - CICD
 
 ## How to use this project ⭐
-use it like this
+use it like this - view locally
 
