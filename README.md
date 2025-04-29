@@ -1,4 +1,8 @@
 # Lume Web Design 
+### A website I built as a side project...
+
 ## heading
-### this is a pretty simple site
 some text
+
+## Project goals
+these are me goals
