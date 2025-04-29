@@ -2,9 +2,9 @@
 A short description and goal for the project
 
 ## Features 💥
-**feature 1** - some information
+- **feature 1** - some information
 
-**feature 2** - some information
+* **feature 2** - some information
 
 **feature 3** - some information
 
