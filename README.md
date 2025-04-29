@@ -1,7 +1,8 @@
 # Lume Web Design 
 A short description and goal for the project
 
-💥:## Features
+💥
+## Features
 **feature 1** - some information
 
 **feature 2** - some information
@@ -10,15 +11,18 @@ A short description and goal for the project
 
 **feature 4** - some information
 
-✨:## Technology
+✨ 
+## Technology
 **Frontend** - some information
 
 **Backend** - some information
 
 
-💫zy:## Deployment
+💫
+## Deployment
 some text
 
-⭐:## How to use this project
+⭐
+## How to use this project
 use it like this
 
