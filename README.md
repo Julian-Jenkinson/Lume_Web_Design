@@ -1,5 +1,5 @@
 # Lume Web Design 
-this is a website I built for myself
+A short description and goal for the project
 
 ### Features
 **feature 1** - some information
