@@ -1,8 +1,15 @@
 # Lume Web Design 
-### A website I built as a side project...
+this is a website i built for myself
 
-## heading
+## Features
+feature 1 - some information
+feature 2 - some information
+feature 3 - some information
+feature 4 - some information
+
+## Technology
 some text
 
-## Project goals
-these are me goals
+## How to use this project
+use it like this
+
