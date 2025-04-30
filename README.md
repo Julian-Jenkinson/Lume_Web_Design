@@ -2,19 +2,28 @@
 A short description and goal for the project
 
 ## Features 💥
-- **feature 1** - some information
-- **feature 2** - some information
-- **feature 3** - some information
+- **Pure CSS** - 
+- Performance - Designed for performance - Near perfect lighthouse scores.
+- **Fully responsive** - Try it out across multiple screen sizes - it looks great on any device.
+- **Search ranking** - Built with the intention to learn about Google search rankings - Google likes it
+
 - **feature 4** - some information
 
 ## Technology ✨ 
-**Frontend** - some information
+**Frontend** - HTML, CSS, JS
 
-**Backend** - some information
+**Ops** - Netlify, Github
 
 ## Deployment 💫
-some text about netlify - CICD
+This site is currently live at https://lumewebdesign.com.au
+
+It is deployed via Netlify, using a custom domain name and email server. Continuous deployment is set up through a Git integration (CI/CD).
 
 ## How to use this project ⭐
-use it like this - view locally
+The following commands start a local server and serve the files from the directory where you run the command
+
+npm install -g http-server
+http-server
+
+Then simply open the path it provides and your in
 
