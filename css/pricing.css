@@ -1,1 +1,163 @@
-@media only screen and (min-width:0){#pricing-section{margin:auto;padding-bottom:2em;padding-top:8em}#pricing-section .pricing-container{width:90%;margin:auto}#pricing-section .pricing-container .price-box{padding-bottom:2em;padding-top:2em;margin-bottom:2em;background-color:#ededed;border-radius:30px;display:flex;flex-wrap:wrap}#pricing-section .pricing-container .price-box .left-price{width:100%;padding-left:2em}#pricing-section .pricing-container .price-box .left-price .price-heading{font-family:"heading";font-weight:800}#pricing-section .pricing-container .price-box .left-price p{padding-bottom:1em;font-size:18px}#pricing-section .pricing-container .price-box .right-price{font-family:"Heading";padding-left:2em;padding-top:2em;font-size:20px;width:100%;display:flex;flex-direction:column;justify-content:center}#pricing-section .pricing-container .price-box .right-price h3{font-size:30px;font-family:"Heading";font-weight:800;margin-bottom:.2em}#pricing-section .pricing-container .price-box .right-price p{padding-bottom:2em;font-weight:300;font-size:16px}#pricing-section .pricing-container .price-box .right-price form .button{color:#fff;background-color:#000}#pricing-section .pricing-container .price-box .right-price form .button:hover{color:#000;background-color:#fff}}@media only screen and (min-width:48em){#pricing-section .pricing-container{width:90%;margin:auto}#pricing-section .pricing-container .price-box .left-price{width:65%}#pricing-section .pricing-container .price-box .right-price{width:35%}}@media only screen and (min-width:64em){#pricing-section{max-width:1200px}}@media only screen and (min-width:1500px){#pricing-section{max-width:1300px}}@media only screen and (min-width:0){#about-section{padding-bottom:5em;background-color:var(--coloura);margin:auto}#about-section .about-container{width:90%;margin:auto}#about-section .about-container .sub-head-4{font-size:28px;font-weight:600}#about-section .about-container .about-columns .about-image{width:90%;height:auto;display:none;border-radius:30px;filter:grayscale(50%)}#about-section .about-container .about-columns .about-text{font-family:"heading";padding-bottom:3em;opacity:0;transition:opacity 2s ease,transform 1.5s ease;transform:translateY(25%)}#about-section .about-container .about-columns .about-text.text-appear{transform:translateY(0);opacity:1}#about-section .about-container .center-button{padding-top:1em;text-align:center}}@media only screen and (min-width:48em){#about-section .about-container .about-columns{padding-top:2em;display:flex;justify-content:space-between}#about-section .about-container .about-columns .about-image-wrapper{width:40%}#about-section .about-container .about-columns .about-image-wrapper .about-image{width:90%;height:auto;display:block;object-fit:fill}#about-section .about-container .about-columns .about-text-wrapper{width:95%}}@media only screen and (min-width:64em){#about-section{max-width:1200px}}@media only screen and (min-width:1500px){#about-section{max-width:1300px}}
+/*-- -------------------------- -->
+<---           Pricing          -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #pricing-section {
+    margin: auto;
+    padding-bottom: 2em;
+    padding-top: 8em;
+  }
+  #pricing-section .pricing-container {
+    width: 90%;
+    margin: auto;
+  }
+  #pricing-section .pricing-container .price-box {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-bottom: 2em;
+    background-color: #ededed;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #pricing-section .pricing-container .price-box .left-price {
+    width: 100%;
+    padding-left: 2em;
+  }
+  #pricing-section .pricing-container .price-box .left-price .price-heading {
+    font-family: "heading";
+    font-weight: 800;
+  }
+  #pricing-section .pricing-container .price-box .left-price p {
+    padding-bottom: 1em;
+    font-size: 18px;
+  }
+  #pricing-section .pricing-container .price-box .right-price {
+    font-family: "Heading";
+    padding-left: 2em;
+    padding-top: 2em;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #pricing-section .pricing-container .price-box .right-price h3 {
+    font-size: 30px;
+    font-family: "Heading";
+    font-weight: 800;
+    margin-bottom: .2em;
+  }
+  #pricing-section .pricing-container .price-box .right-price p {
+    padding-bottom: 2em;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  #pricing-section .pricing-container .price-box .right-price form .button {
+    color: white;
+    background-color: black;
+  }
+  #pricing-section .pricing-container .price-box .right-price form .button:hover {
+    color: black;
+    background-color: white;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 48em) {
+  #pricing-section .pricing-container {
+    width: 90%;
+    margin: auto;
+  }
+  #pricing-section .pricing-container .price-box .left-price {
+    width: 65%;
+  }
+  #pricing-section .pricing-container .price-box .right-price {
+    width: 35%;
+  }
+}
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+  #pricing-section {
+    max-width: 1200px;
+  }
+}
+/* Large Desktop */
+@media only screen and (min-width: 1500px) {
+  #pricing-section {
+    max-width: 1300px;
+  }
+}
+/*-- -------------------------- -->
+<---           About            -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #about-section {
+    padding-bottom: 5em;
+    background-color: var(--coloura);
+    margin: auto;
+  }
+  #about-section .about-container {
+    width: 90%;
+    margin: auto;
+  }
+  #about-section .about-container .sub-head-4 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  #about-section .about-container .about-columns .about-image {
+    width: 90%;
+    height: auto;
+    display: none;
+    border-radius: 30px;
+    filter: grayscale(50%);
+  }
+  #about-section .about-container .about-columns .about-text {
+    font-family: "heading";
+    padding-bottom: 3em;
+    opacity: 0;
+    transition: opacity 2s ease, transform 1.5s ease;
+    transform: translateY(25%);
+  }
+  #about-section .about-container .about-columns .about-text.text-appear {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  #about-section .about-container .center-button {
+    padding-top: 1em;
+    text-align: center;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 48em) {
+  #about-section .about-container .about-columns {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+  }
+  #about-section .about-container .about-columns .about-image-wrapper {
+    width: 40%;
+  }
+  #about-section .about-container .about-columns .about-image-wrapper .about-image {
+    width: 90%;
+    height: auto;
+    display: block;
+    object-fit: fill;
+  }
+  #about-section .about-container .about-columns .about-text-wrapper {
+    width: 95%;
+  }
+}
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+  #about-section {
+    max-width: 1200px;
+  }
+}
+/* Large Desktop */
+@media only screen and (min-width: 1500px) {
+  #about-section {
+    max-width: 1300px;
+  }
+}
