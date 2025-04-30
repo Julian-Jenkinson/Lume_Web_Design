@@ -1,0 +1,78 @@
+/*-- -------------------------- -->
+<---           Services         -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #service-section {
+    margin: auto;
+    padding-bottom: 2em;
+    padding-top: 8em;
+  }
+  #service-section .service-container {
+    width: 90%;
+    margin: auto;
+  }
+  #service-section .service-container .services-group .service {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 2em;
+    background-color: #ededed;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  #service-section .service-container .services-group .service .service-icon .icon-img {
+    height: auto;
+  }
+  #service-section .service-container .services-group .service .service-heading {
+    margin-bottom: 1em;
+    font-family: "heading";
+  }
+  #service-section .service-container .services-group .service .service-info {
+    font-family: "heading";
+  }
+  #service-section .service-container .center-button {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 48em) {
+  #service-section .service-container {
+    width: 90%;
+    margin: auto;
+  }
+  #service-section .service-container .services-group .service {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 2em;
+  }
+  #service-section .service-container .services-group .service .service-icon {
+    width: 30%;
+  }
+  #service-section .service-container .services-group .service .service-icon .icon-img {
+    width: 40%;
+    height: auto;
+  }
+  #service-section .service-container .services-group .service .service-info {
+    width: 60%;
+    text-align: left;
+  }
+}
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+  #service-section {
+    max-width: 1200px;
+  }
+}
+/* Large Desktop */
+@media only screen and (min-width: 1500px) {
+  #service-section {
+    max-width: 1300px;
+  }
+}
