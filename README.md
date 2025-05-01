@@ -8,7 +8,7 @@ A website I developed as a side project. My intention was to get a handle of the
 - **Search ranking** - Built with the intention to learn about Google search rankings - Google likes it!
   
 ## Technology ✨ 
-**Frontend** - HTML, CSS, JS
+**Frontend** - HTML, CSS, LESS, JS
 
 **Ops** - Netlify, Github
 
