@@ -6,7 +6,7 @@ A website I developed as a side project. My intention was to get a handle of the
 - **Performance** - Designed for performance. Near perfect lighthouse scores.
 - **Fully responsive** - Try it out across multiple screen sizes - it looks great on any device.
 - **Search ranking** - Built with the intention to learn about Google search rankings - Google likes it!
-- 
+  
 ## Technology ✨ 
 **Frontend** - HTML, CSS, JS
 
