@@ -15,7 +15,7 @@ A website I developed as a side project. My intention was to get a handle of the
 ## Deployment 🚀
 This site is currently live at https://lumewebdesign.com.au
 
-It is deployed via Netlify, using a custom domain name and email server. Continuous deployment is set up through a Git integration (CI/CD).
+It's deployed via Netlify, using a custom domain name and email server. Continuous deployment is set up through a Git integration (CI/CD).
 
 ## How to use this project 💥 
 Get set up with with the pre-processor LESS. I use Koala to autocompile in CSS
